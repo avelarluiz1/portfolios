@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Luiz LA</title>
+    
+</head>
+<body>
+
+    <HEADER>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="logo da agencia"
+                    width="100px" />
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#formulario">
+                    <br>
+                    <button>Contatos</button>
+                </a>
+            </div>
+        </div><!--interface-->
+    </HEADER>
+
+    
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Faça com que sua empresa, festivais e eventos sejam vistos. A nossa agência te ajuda com isso.</h1>
+                        <br>
+
+                        <P>Design não é arte, como definimos arte. Considero uma coisa orgânica no sentido social, cultural e econômico. Não considero uma coisa especial. As pessoas vêem coisas que fiz e não sabem que fui eu e eu acho ótimo. A busca da perfeição é o caminho do design.</P>
+                        <br>
+                       
+                        <div class="btn-contato">
+                            <a href="#formulario">
+                                <button>Entre em contato</button>
+                            </a>
+                       
+                        </div><!--btn-contato-->
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="img/Untitled design.png" alt="luiz" width="350px" />
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section id="especialidades" class="especialidades">
+            <div class="interface">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 class="titulo">MINHAS ESPECIALIDADES</h2>
+                <br>
+                <br>
+                <br>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <h3>Logomarcas</h3>
+                        <br>
+                        <p>Uma logo é a identidade de sua marca. Ele descreve, através de uma imagem, de um símbolo, o que é o seu negócio, trazendo personalidade á sua empresa.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <h3>Flyer</h3>
+                        <br>
+                        <p>São importantes para a divulgação do seu evento, da sua empresa. Trazendo noteriedade e fazendo com que seu lugar seja promovido.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <h3>Anúncios</h3>
+                        <br>
+                        <p>Por meio da publicidade, a população tem acesso a informações de utilidade pública sobre os mais variados assuntos.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+                
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/loi.png" alt="" width="300px">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, SOU <SPAN>LUIZ AVELAR.</SPAN></h2>
+                        <p>Olá, como está? Meu nome é Luiz!</p>
+                        <p>Sou formado em designer gráfico a 7 anos, mas estou sempre a procura de inovar, recriar e modelar novas possibilidades. Meu proposito é fazer com que seus pensamentos sejam desenhados e mostrados, fazendo com que possa ficar satisfeito com os meus serviços.</p>
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="portfolio" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo"><span>MEU</span> PORTFÓLIO</h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/1.png);">
+                        <div class="overlay">Logomarcas</div><!--overlay-->
+                    </div>
+                    <div class="img-port" style="background-image: url(img/2.png);">
+                        <div class="overlay">Flyer</div><!--overlay-->
+                    </div>
+                    <div class="img-port" style="background-image: url(img/3.png);">
+                        <div class="overlay">Anúncios</div><!--overlay-->
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo"><span>FALA</span> COMIGO</h2>
+
+                <form method="post" action="enviar.php">
+                    <input type="text" name="Seu nome" id="Seu nome" placeholder="Seu nome" required>
+                    <input type="text" name="Seu e-mail" id="Seu e-mail" placeholder="Seu e-mail" required>
+                    <input type="text" name="Seu celular" id="Seu celular" placeholder="Seu celular">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR">
+                    </div><!--btn-enviar-->
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer"></div>
+                    <img src="img/logo.png" alt="" width="60px">
+               </div>
+            </div><!--line-foote-->
+    </footer>
+    
+</body>
+</html>
